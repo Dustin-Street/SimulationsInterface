@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/SimulationsInterface/">
+    <file alias="src/ui/Main.qml">/home/Exodus/projects/SimulationsInterface/src/ui/Main.qml</file>
+  </qresource>
+</RCC>
+

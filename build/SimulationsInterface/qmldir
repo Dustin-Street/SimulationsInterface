@@ -1,0 +1,8 @@
+module SimulationsInterface
+linktarget SimulationsInterfaceplugin
+optional plugin SimulationsInterfaceplugin
+classname SimulationsInterfacePlugin
+typeinfo SimulationsInterface.qmltypes
+prefer :/SimulationsInterface/
+Main 1.0 src/ui/Main.qml
+

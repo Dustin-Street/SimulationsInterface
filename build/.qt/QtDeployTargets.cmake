@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_SimulationsInterface_FILE /home/Exodus/projects/SimulationsInterface/build/libSimulationsInterface.so)
+set(__QT_DEPLOY_TARGET_SimulationsInterface_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_SimulationsInterfaceplugin_FILE /home/Exodus/projects/SimulationsInterface/build/SimulationsInterface/libSimulationsInterfaceplugin.so)
+set(__QT_DEPLOY_TARGET_SimulationsInterfaceplugin_TYPE MODULE_LIBRARY)
+set(__QT_DEPLOY_TARGET_simulationsinterface_FILE /home/Exodus/projects/SimulationsInterface/build/simulationsinterface)
+set(__QT_DEPLOY_TARGET_simulationsinterface_TYPE EXECUTABLE)

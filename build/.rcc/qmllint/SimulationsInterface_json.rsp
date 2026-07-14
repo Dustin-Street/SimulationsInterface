@@ -1,0 +1,12 @@
+--bare
+-I
+/home/Exodus/projects/SimulationsInterface/build
+-I
+/usr/lib/x86_64-linux-gnu/qt6/qml
+--resource
+/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qmake_SimulationsInterface.qrc
+--resource
+/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/SimulationsInterface_raw_qml_0.qrc
+/home/Exodus/projects/SimulationsInterface/src/ui/Main.qml
+--json
+/home/Exodus/projects/SimulationsInterface/build/SimulationsInterface_qmllint.json

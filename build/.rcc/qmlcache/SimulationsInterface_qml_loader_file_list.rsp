@@ -1,0 +1,5 @@
+--resource
+/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/qmake_SimulationsInterface.qrc
+--resource
+/home/Exodus/projects/SimulationsInterface/build/.qt/rcc/SimulationsInterface_raw_qml_0.qrc
+/SimulationsInterface/src/ui/Main.qml
