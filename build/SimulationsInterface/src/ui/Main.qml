@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 
+
 ApplicationWindow {
     id: root
     visible: true
@@ -12,7 +13,14 @@ ApplicationWindow {
         color: '#393b3a'
         radius: 10;
         border.width: 4
-        border.color: '#317f8d'
+        border.color: '#4bbace'
+
+        Button {
+            id: addSimulation
+            text: "Load Simulation"
+            onClicked: loadSimulation()
+        }
+        
 
     }
 

@@ -3,6 +3,14 @@
         "moduleFiles": [
             {
                 "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 24,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Cannot resolve property type  for binding on onClicked.",
+                        "functionName": "onClicked",
+                        "line": 21
+                    }
                 ],
                 "filepath": "/home/Exodus/projects/SimulationsInterface/src/ui/Main.qml"
             }
