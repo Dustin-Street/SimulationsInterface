@@ -17,7 +17,8 @@ set(CMAKE_AUTOUIC ON)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/includes)
 
-find_package(Qt6 REQUIRED COMPONENTS Quick Qml QuickControls2)
+
+find_package(Qt6 REQUIRED COMPONENTS Quick Qml QuickControls2 Core)
 
 qt_add_qml_module(${TEMPLATE_PROJECT_NAME}
     URI ${TEMPLATE_QML_URI}
@@ -31,6 +32,10 @@ qt_add_qml_module(${TEMPLATE_PROJECT_NAME}
 add_executable(${TEMPLATE_EXECUTABLE_NAME}
     src/main.cpp
     src/Simulation.cpp
+    src/simulationRegistery.cpp
+    src/ui/controllers/SimulationController.cpp
+    src/ui/controllers/includes/SimulationController.h
+    src/utils/idGenerator.cpp
 )
 
 
@@ -38,13 +43,14 @@ target_link_libraries(${TEMPLATE_EXECUTABLE_NAME}
     Qt6::Quick
     Qt6::Qml
     Qt6::QuickControls2
+    Qt6::Core
     ${TEMPLATE_PROJECT_NAME}
     
 )
 
-
-
-
+target_include_directories(${TEMPLATE_EXECUTABLE_NAME} PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/ui/controllers/includes
+)
 
 # Expose the CMake build directory to the application so QQmlEngine
 # can find the generated qmldir/plugin under the build tree at runtime.

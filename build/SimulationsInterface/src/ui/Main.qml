@@ -1,6 +1,6 @@
 import QtQuick
 import QtQuick.Controls
-
+import SimulationsInterface
 
 ApplicationWindow {
     id: root
@@ -9,6 +9,10 @@ ApplicationWindow {
     height: 600
 
 
+    SimulationController {
+        id: controller
+    }
+
     background: Rectangle {
         color: '#393b3a'
         radius: 10;
@@ -16,11 +20,14 @@ ApplicationWindow {
         border.color: '#4bbace'
 
         Button {
+            anchors.bottom: parent.bottom
+            anchors.horizontalCenter: parent.horizontalCenter
             id: addSimulation
             text: "Load Simulation"
-            onClicked: loadSimulation()
+            onClicked: controller.loadSimulation("Demo", 42.0)
+            anchors.margins: 25
         }
-        
+
 
     }
 

@@ -312,7 +312,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "simulationsinterface_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/Exodus/projects/SimulationsInterface/src/ui/controllers/includes/SimulationController.h",
+			"MU",
+			"PXAZDRREDM/moc_SimulationController.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/Exodus/projects/SimulationsInterface/build/simulationsinterface_autogen/mocs_compilation.cpp",
@@ -343,6 +351,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/Exodus/projects/SimulationsInterface/includes",
+		"/home/Exodus/projects/SimulationsInterface/src/ui/controllers/includes",
 		"/usr/include/x86_64-linux-gnu/qt6/QtQuick",
 		"/usr/include/x86_64-linux-gnu/qt6",
 		"/usr/include/x86_64-linux-gnu/qt6/QtCore",
@@ -411,7 +420,22 @@
 			"MU",
 			null
 		],
-		[ "/home/Exodus/projects/SimulationsInterface/src/main.cpp", "MU", null ]
+		[ "/home/Exodus/projects/SimulationsInterface/src/main.cpp", "MU", null ],
+		[
+			"/home/Exodus/projects/SimulationsInterface/src/simulationRegistery.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/Exodus/projects/SimulationsInterface/src/ui/controllers/SimulationController.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/Exodus/projects/SimulationsInterface/src/utils/idGenerator.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -462,4 +462,16 @@ CMakeFiles/simulationsinterface.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qregion.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qline.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixmap.h \
+ /home/Exodus/projects/SimulationsInterface/src/./ui/controllers/includes/SimulationController.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
+ /home/Exodus/projects/SimulationsInterface/includes/Simulation.h \
+ /home/Exodus/projects/SimulationsInterface/includes/simulationRegistery.h \
+ /home/Exodus/projects/SimulationsInterface/includes/Simulation.h \
+ /home/Exodus/projects/SimulationsInterface/includes/idGenerator.h \
+ /usr/include/c++/14/unordered_set \
+ /usr/include/c++/14/bits/unordered_set.h /usr/include/c++/14/iostream \
+ /usr/include/c++/14/random /usr/include/c++/14/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/opt_random.h \
+ /usr/include/c++/14/bits/random.tcc

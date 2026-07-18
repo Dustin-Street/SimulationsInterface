@@ -5,6 +5,9 @@ simulationsinterface: \
   CMakeFiles/simulationsinterface.dir/simulationsinterface_autogen/mocs_compilation.cpp.o \
   CMakeFiles/simulationsinterface.dir/src/main.cpp.o \
   CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.o \
+  CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o \
+  CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o \
+  CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o \
   /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.8.2 \
   libSimulationsInterface.so \
   /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.8.2 \
@@ -136,6 +139,12 @@ CMakeFiles/simulationsinterface.dir/simulationsinterface_autogen/mocs_compilatio
 CMakeFiles/simulationsinterface.dir/src/main.cpp.o:
 
 CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.o:
+
+CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o:
+
+CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o:
+
+CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.8.2:
 

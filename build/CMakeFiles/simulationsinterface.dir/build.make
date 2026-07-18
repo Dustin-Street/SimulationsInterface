@@ -114,11 +114,56 @@ CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/SimulationsInterface/src/Simulation.cpp -o CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.s
 
+CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o: CMakeFiles/simulationsinterface.dir/flags.make
+CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o: /home/Exodus/projects/SimulationsInterface/src/simulationRegistery.cpp
+CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o: CMakeFiles/simulationsinterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o -MF CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o.d -o CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o -c /home/Exodus/projects/SimulationsInterface/src/simulationRegistery.cpp
+
+CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/SimulationsInterface/src/simulationRegistery.cpp > CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.i
+
+CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/SimulationsInterface/src/simulationRegistery.cpp -o CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.s
+
+CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o: CMakeFiles/simulationsinterface.dir/flags.make
+CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o: /home/Exodus/projects/SimulationsInterface/src/ui/controllers/SimulationController.cpp
+CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o: CMakeFiles/simulationsinterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o -MF CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o.d -o CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o -c /home/Exodus/projects/SimulationsInterface/src/ui/controllers/SimulationController.cpp
+
+CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/SimulationsInterface/src/ui/controllers/SimulationController.cpp > CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.i
+
+CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/SimulationsInterface/src/ui/controllers/SimulationController.cpp -o CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.s
+
+CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o: CMakeFiles/simulationsinterface.dir/flags.make
+CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o: /home/Exodus/projects/SimulationsInterface/src/utils/idGenerator.cpp
+CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o: CMakeFiles/simulationsinterface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o -MF CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o.d -o CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o -c /home/Exodus/projects/SimulationsInterface/src/utils/idGenerator.cpp
+
+CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Exodus/projects/SimulationsInterface/src/utils/idGenerator.cpp > CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.i
+
+CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Exodus/projects/SimulationsInterface/src/utils/idGenerator.cpp -o CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.s
+
 # Object files for target simulationsinterface
 simulationsinterface_OBJECTS = \
 "CMakeFiles/simulationsinterface.dir/simulationsinterface_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/simulationsinterface.dir/src/main.cpp.o" \
-"CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.o"
+"CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.o" \
+"CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o" \
+"CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o" \
+"CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o"
 
 # External object files for target simulationsinterface
 simulationsinterface_EXTERNAL_OBJECTS =
@@ -126,6 +171,9 @@ simulationsinterface_EXTERNAL_OBJECTS =
 simulationsinterface: CMakeFiles/simulationsinterface.dir/simulationsinterface_autogen/mocs_compilation.cpp.o
 simulationsinterface: CMakeFiles/simulationsinterface.dir/src/main.cpp.o
 simulationsinterface: CMakeFiles/simulationsinterface.dir/src/Simulation.cpp.o
+simulationsinterface: CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o
+simulationsinterface: CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o
+simulationsinterface: CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o
 simulationsinterface: CMakeFiles/simulationsinterface.dir/build.make
 simulationsinterface: CMakeFiles/simulationsinterface.dir/compiler_depend.ts
 simulationsinterface: /usr/lib/x86_64-linux-gnu/libQt6QuickControls2.so.6.8.2
@@ -142,7 +190,7 @@ simulationsinterface: /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.8.2
 simulationsinterface: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.8.2
 simulationsinterface: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.8.2
 simulationsinterface: CMakeFiles/simulationsinterface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable simulationsinterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/Exodus/projects/SimulationsInterface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable simulationsinterface"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simulationsinterface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

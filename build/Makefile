@@ -711,6 +711,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/simulationRegistery.o: src/simulationRegistery.cpp.o
+.PHONY : src/simulationRegistery.o
+
+# target to build an object file
+src/simulationRegistery.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.o
+.PHONY : src/simulationRegistery.cpp.o
+
+src/simulationRegistery.i: src/simulationRegistery.cpp.i
+.PHONY : src/simulationRegistery.i
+
+# target to preprocess a source file
+src/simulationRegistery.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.i
+.PHONY : src/simulationRegistery.cpp.i
+
+src/simulationRegistery.s: src/simulationRegistery.cpp.s
+.PHONY : src/simulationRegistery.s
+
+# target to generate assembly for a file
+src/simulationRegistery.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/simulationRegistery.cpp.s
+.PHONY : src/simulationRegistery.cpp.s
+
+src/ui/controllers/SimulationController.o: src/ui/controllers/SimulationController.cpp.o
+.PHONY : src/ui/controllers/SimulationController.o
+
+# target to build an object file
+src/ui/controllers/SimulationController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.o
+.PHONY : src/ui/controllers/SimulationController.cpp.o
+
+src/ui/controllers/SimulationController.i: src/ui/controllers/SimulationController.cpp.i
+.PHONY : src/ui/controllers/SimulationController.i
+
+# target to preprocess a source file
+src/ui/controllers/SimulationController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.i
+.PHONY : src/ui/controllers/SimulationController.cpp.i
+
+src/ui/controllers/SimulationController.s: src/ui/controllers/SimulationController.cpp.s
+.PHONY : src/ui/controllers/SimulationController.s
+
+# target to generate assembly for a file
+src/ui/controllers/SimulationController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/ui/controllers/SimulationController.cpp.s
+.PHONY : src/ui/controllers/SimulationController.cpp.s
+
+src/utils/idGenerator.o: src/utils/idGenerator.cpp.o
+.PHONY : src/utils/idGenerator.o
+
+# target to build an object file
+src/utils/idGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.o
+.PHONY : src/utils/idGenerator.cpp.o
+
+src/utils/idGenerator.i: src/utils/idGenerator.cpp.i
+.PHONY : src/utils/idGenerator.i
+
+# target to preprocess a source file
+src/utils/idGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.i
+.PHONY : src/utils/idGenerator.cpp.i
+
+src/utils/idGenerator.s: src/utils/idGenerator.cpp.s
+.PHONY : src/utils/idGenerator.s
+
+# target to generate assembly for a file
+src/utils/idGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simulationsinterface.dir/build.make CMakeFiles/simulationsinterface.dir/src/utils/idGenerator.cpp.s
+.PHONY : src/utils/idGenerator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -778,6 +850,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/simulationRegistery.o"
+	@echo "... src/simulationRegistery.i"
+	@echo "... src/simulationRegistery.s"
+	@echo "... src/ui/controllers/SimulationController.o"
+	@echo "... src/ui/controllers/SimulationController.i"
+	@echo "... src/ui/controllers/SimulationController.s"
+	@echo "... src/utils/idGenerator.o"
+	@echo "... src/utils/idGenerator.i"
+	@echo "... src/utils/idGenerator.s"
 .PHONY : help
 
 
